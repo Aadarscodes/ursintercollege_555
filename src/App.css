@@ -81,7 +81,102 @@
 .urslogo {
   height: 110px; /* Adjust the height as needed */
   margin-right: 20px;
-width: 50px;
+}
 
+.logonamesection {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 4%;
+  left: 14%;
+}
 
+.logoname {
+  margin: 0; /* Remove default margins */
+}
+
+.logoenglishname {
+  margin-bottom: 5px; /* Adjust spacing as needed */
+}
+
+.logohindiname, .logohindaddress {
+  color: #b75906;
+  margin: 0; /* Ensure no extra margins */
+}
+
+.logosubtitle {
+  color: #b75906;
+  font-size: 15px;
+}
+
+.logotagname {
+  color: #000;
+  margin-top: 5px; /* Adjust spacing as needed */
+  text-align: left;
+}
+
+.logohindiname, .logohindiaddress{
+  text-align: left;
+}
+
+.logohindiname, .logohindaddress {
+  color: #b75906;
+  margin: 0;
+  text-align: left;
+}
+
+.social-media-links{
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 71%;
+}
+.social-media-links img{
+  width:50px;
+  display: flex;
+  margin: 15px;
+}
+
+/* Media Query for screens with width less than or equal to 1292px */
+@media (max-width: 1250px) {
+  .logonamesection {
+    left: 22%;
+  }
+}
+@media (max-width: 714px) {
+  .logonamesection {
+    left: 28%;
+    font-size: 13px;
+    top:8%;
+  }
+}
+@media (max-width: 1224px) {
+  .social-media-links .fb{
+     display:none;
+ 
+  }
+  .social-media-links .ig{
+     display:none;
+ 
+  }
+  /* .social-media-links .ln{
+    position: absolute;
+    align-items: right;
+ 
+  }
+  .social-media-links {
+    position: absolute;
+     align-items: right;
+ 
+  } */
+  .social-media-links img {
+    margin-left:100px ;
+  }
+}
+@media (max-width:1128px){
+  .social-media-links {
+    display:none;
+
+ }
 }
