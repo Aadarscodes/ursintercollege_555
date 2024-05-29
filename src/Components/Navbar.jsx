@@ -24,7 +24,7 @@ const Navbar = () => {
         <li><a href="#program">Admission</a></li>
         <li><a href="#about">Album</a></li>
         {/* <li><a href="#campus">Campus</a></li> */}
-        <li><a href="#testimonials">Testimonials</a></li>
+        {/* <li><a href="#testimonials">Testimonials</a></li> */}
         <li><a href="#contact"><button className='btn'>Contact us</button></a></li>
       </ul>
       {/* <img src={menu_icon} className='menu-icon' onClick={toggleMenu} alt='Menu Icon' /> */}
