@@ -98,6 +98,7 @@
 
 .logoenglishname {
   margin-bottom: 5px; /* Adjust spacing as needed */
+  font-size: 30px;
 }
 
 .logohindiname, .logohindaddress {
@@ -118,12 +119,14 @@
 
 .logohindiname, .logohindiaddress{
   text-align: left;
+  font-size:10px;
 }
 
 .logohindiname, .logohindaddress {
   color: #b75906;
   margin: 0;
   text-align: left;
+  font-size: 19px;
 }
 
 .social-media-links{
@@ -171,12 +174,19 @@
  
   } */
   .social-media-links img {
-    margin-left:100px ;
+    margin-left:25px ;
   }
 }
-@media (max-width:1128px){
+@media (max-width:1px){
   .social-media-links {
     display:none;
 
  }
+}
+footer{
+  margin:center;
+  width: 4%;
+  display: flex;
+  position: absolute;
+  top: 80%;
 }

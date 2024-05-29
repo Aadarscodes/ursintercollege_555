@@ -36,9 +36,9 @@ nav ul li {
 a{
   text-decoration: none;
   color: inherit;
-  line-height: 1;
+  line-height: auto;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .container{
@@ -49,27 +49,37 @@ a{
 }
 
 .btn{
-  border-radius: 30px;
-  color:#212121 ;
-  background: #fff;
+  border-radius: 25px;
+  color:#f7eeee ;
+  background: #030000;
   padding: 14px 25px;
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
   border: 0;
   outline: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin: -5px;
+  height: 35px;
+}
+.container{
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  position: absolute;
+  top: 27%;
 }
 
 ul.hide-mobile-menu{
-  /* margin-left: 20px; */
+  margin-left: 20px;
+  height: 15px;
 }
 
 .hide-mobile-menu a{
-  /* background-color: aqua; */
-  /* border-radius: 10px;
-  padding: 5px; */
+  border-radius:15px;
+  /* padding: 3px; */
+  margin: left;
+  display: flex;
 }
 
 
