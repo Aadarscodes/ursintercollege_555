@@ -20,7 +20,9 @@ nav{
 nav ul li {
   list-style: none;
   display: inline-block;
-  margin: 5px 20px;
+  margin: 5px 25px;
+  margin-top: 18px;
+  margin-bottom: 0px;
   font-size: 16px;
 }
 
@@ -41,11 +43,11 @@ a{
   font-size: 25px;
 }
 
-.container{
+.containerx{
   /* padding-left: 10%;
   padding-right: 10%; */
   position: absolute;
-  top: 22%;
+  top: 25%;
 }
 
 .btn{

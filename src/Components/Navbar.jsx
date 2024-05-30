@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`container ${mobileMenu ? 'show-mobile-menu' : ''}`}>
+    <nav className={`containerx ${mobileMenu ? 'show-mobile-menu' : ''}`}>
       {/* Replace the logo and menu icon with your own */}
       {/* <img src={logo} alt='' className='logo' /> */}
       <ul className={mobileMenu ? 'mobile-menu' : 'hide-mobile-menu'}>

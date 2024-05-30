@@ -138,6 +138,17 @@
   margin: 15px;
 }
 
+.App {
+  width: 168%;
+    left: -34%;
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Media Query for screens with width less than or equal to 1292px */
 @media (max-width: 1250px) {
   .logonamesection {
@@ -180,5 +191,6 @@
 
  }
 }
+
 
 
