@@ -7,7 +7,7 @@ import twitter from "../assets/twitter.png";
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-section contact-info">
@@ -39,7 +39,7 @@ const Footer = () => {
           <p>&copy; 2024 School Name. All rights reserved.</p>
         </div>
       </footer>
-    </div>
+   
   );
 }
 
