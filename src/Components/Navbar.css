@@ -2,7 +2,7 @@ nav{
   width: 100%;
   background: #333;
   color:#ea1515;
-  padding: 4px 0;
+  padding: 31px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -38,9 +38,9 @@ nav ul li {
 a{
   text-decoration: none;
   color: inherit;
-  line-height: 1;
+  line-height: auto;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .containerx{
@@ -51,27 +51,46 @@ a{
 }
 
 .btn{
-  border-radius: 30px;
-  color:#212121 ;
-  background: #fff;
-  padding: 14px 25px;
-  font-size: 16px;
+  border-radius: 25px;
+  color:#f7eeee ;
+  background: #030000;
+  padding: 29px 11px;
+  font-size: 19px;
   cursor: pointer;
   border: 0;
   outline: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin: -23px;
+  height: 50px;
+  position: absolute;
+  bottom: 40%;
+  left: 82%;
+
+}
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+  position: absolute;
+  top: 80%;
 }
 
 ul.hide-mobile-menu{
-  /* margin-left: 20px; */
+  margin-left: 20px;
+  height: 15px;
 }
 
 .hide-mobile-menu a{
-  /* background-color: aqua; */
-  /* border-radius: 10px;
-  padding: 5px; */
+  border-radius:15px;
+  /* padding: 3px; */
+  margin: left;
+  display: flex;
+}
+
+.chutiya{
+  margin-top: -28%;
+
 }
 
 

@@ -4,8 +4,11 @@
   justify-content: center;
   align-items: center;
   width: 60%;
-  height: 600px;
   top: 35%;
+  margin-top: 3in;
+   margin: right;
+   height: 580px;
+   display: flex;
 }
 
 .slide {

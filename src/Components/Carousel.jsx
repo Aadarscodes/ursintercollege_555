@@ -41,6 +41,7 @@ export const Carousel = ({ data }) => {
               }
               onClick={() => setSlide(idx)}
             ></button>
+          
           );
         })}
       </span>

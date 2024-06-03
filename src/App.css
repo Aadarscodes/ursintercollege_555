@@ -7,10 +7,11 @@ html, body {
 
 
 #root {
-  max-width: 1280px;
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
+  max-width: 100%;
+  margin: auto;
+  padding: 2rem;
   text-align: center;
+  display: flex;
 }
 
 .logo {
@@ -52,8 +53,8 @@ html, body {
 .urslogo {
   position: absolute;
   top: 4%;
-  left: 4%;
-  width: 120px;
+  left: 2%;
+  width: 150px;
   cursor: pointer;
 }
 
@@ -79,17 +80,14 @@ html, body {
   position: absolute;
   left: 14%;
   top: 27%;
-} */
+} 
 
-.head {
-  display: flex;
-  align-items: center;
-}
 
-.urslogo {
+
+/* .urslogo {
   height: 110px; /* Adjust the height as needed */
-  margin-right: 20px;
-}
+  /* margin-right: 30px;
+} */ 
 
 .logonamesection {
   font-size: large;
@@ -106,10 +104,13 @@ html, body {
 
 .logoenglishname {
   margin-bottom: 5px; /* Adjust spacing as needed */
+  font-size: 35px;
+  color: #f04f1e;
+  font-style: bold;
 }
 
 .logohindiname, .logohindaddress {
-  color: #b75906;
+  color: #f5933d;
   margin: 0; /* Ensure no extra margins */
 }
 
@@ -126,12 +127,14 @@ html, body {
 
 .logohindiname, .logohindiaddress{
   text-align: left;
+  font-size:10px;
 }
 
 .logohindiname, .logohindaddress {
   color: #b75906;
   margin: 0;
   text-align: left;
+  font-size: 19px;
 }
 
 .social-media-links{
@@ -146,15 +149,16 @@ html, body {
   margin: 15px;
 }
 
-.App {
-  width: 168%;
-    left: -34%;
+.Apps {
+  width: 90%;
+    /* left: -34%; */
     position: absolute;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    left: 27%;
 }
 
 /* Media Query for screens with width less than or equal to 1292px */
@@ -190,15 +194,12 @@ html, body {
  
   } */
   .social-media-links img {
-    margin-left:100px ;
+    margin-left:25px ;
   }
 }
-@media (max-width:1128px){
+@media (max-width:1px){
   .social-media-links {
     display:none;
 
  }
 }
-
-
-

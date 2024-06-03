@@ -9,21 +9,21 @@ import twitter from "../assets/twitter.png";
 
 function Header() {
   return (
-    <div className="head">
+    <div className="headersize">
       <img src={urslogo} className="urslogo" alt="Urs Logo" />
       <div className="logonamesection">
         <h1 className="logoname logoenglishname">
           Uma Ram Shankar Singh Inter College
         </h1>
-        <h4 className="logoname logohindiname">
+        <h2 className="logoname logohindiname">
           उमा राम शंकर सिंह इंटर कॉलेज
-        </h4>
+        </h2> <br />
         <h5 className="logoname logohindaddress">
           <strong>मोगलहा, कुनवार, कैम्पियरगंज-गोरखपुर मो. 9140335773</strong>
         </h5>
         <div className="logosubtitle"></div>
         <div className="logosubtitle logotagname">
-          (Affiliated By: Uttar Pradesh Madhyamik Shiksha Parisad Prayagraj)
+          (Affiliated By: Uttar Pradesh Madhyamik Shiksha Parisad Prayagraj School code: 751500)
         </div>
       </div>
       <div className="col-md-2 col-sm-1 col-xs-1  social-media-links">
