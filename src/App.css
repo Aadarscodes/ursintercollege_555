@@ -2,16 +2,17 @@ html, body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  width: 100%;
+   width: 100%;
 }
 
 
 #root {
-  max-width: 100%;
+  max-width: 1240px;
   margin: auto;
   padding: 2rem;
   text-align: center;
   display: flex;
+  /* overflow-x: hidden; */
 }
 
 .logo {
@@ -203,3 +204,26 @@ html, body {
 
  }
 }
+
+/* Other styles */
+
+/* Styles applied when the mobile menu is open */
+@media (max-width: 840px) {
+  body.menu-open .Apps {
+    left: -27%;
+    width: 154%;
+    top: 128%;
+    right: 0%;
+  }
+
+  body.menu-open .Notice {
+    display: none;
+  }
+}
+
+/* Adjusting main content to shift down when menu is open */
+.content-shift {
+  margin-top: 250px; /* Adjust this value based on the height of your mobile menu */
+}
+
+/* Other styles */
