@@ -1,3 +1,4 @@
+// Adars
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import './Navbar.css';
@@ -21,6 +22,7 @@ const Navbar = () => {
   }, [mobileMenu]);
 
   return (
+    <>
     <nav className={`containerx ${mobileMenu ? 'show-mobile-menu' : ''}`}>
       {/* Replace the logo and menu icon with your own */}
       {/* <img src={logo} alt='' className='logo' /> */}
@@ -37,8 +39,14 @@ const Navbar = () => {
         {/* <li><a href="#testimonials">Testimonials</a></li> */}
         <li><a href="#contact"><button className='btn'>Contact us</button></a></li>
       </ul>
-      {/* <img src={menu_icon} className='menu-icon' onClick={toggleMenu} alt='Menu Icon' /> */}
-    </nav>
+      <img src={menu_icon} className='menu-icon' onClick={toggleMenu} alt='Menu Icon' />
+      </nav>
+      <div className={`content ${mobileMenu ? 'content-shift' : ''}`}>
+        {/* Your main content goes here */}
+        {/* <Carousel></Carousel> */}
+        <div className='contentshift'></div>
+      </div>
+    </>
   );
 };
 
