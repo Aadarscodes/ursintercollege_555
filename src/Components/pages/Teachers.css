@@ -1,0 +1,46 @@
+.teachers-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+}
+
+.teachers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.teachers-table th, .teachers-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.teachers-table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.teachers-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.teachers-table tr:hover {
+    background-color: #ddd;
+}
+
+.teachers-table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.teachers-table td {
+    vertical-align: middle;
+}

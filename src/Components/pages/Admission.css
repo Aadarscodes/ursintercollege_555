@@ -1,0 +1,95 @@
+.admission-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.academic-info, .age-criteria, .download-form {
+    margin-top: 20px;
+}
+
+h1 {
+    color: red;
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+h2 {
+    color: orange;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+.session, .timing, .subjects {
+    margin-bottom: 20px;
+}
+
+.subjects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subjects li {
+    background: lightgrey;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.age-criteria table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.age-criteria th, .age-criteria td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.age-criteria th {
+    background-color: orange;
+    color: white;
+}
+
+.age-criteria tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.age-criteria tr:hover {
+    background-color: #ddd;
+}
+
+.enquiry-button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.enquiry-button:hover {
+    background-color: #ff1493;
+}
+
+.download-form {
+    margin-top: 20px;
+}
+
+.download-link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
