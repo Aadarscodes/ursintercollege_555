@@ -204,6 +204,32 @@ html, body {
 
  }
 }
+@media (max-width:1222px){
+  .social-media-links {
+    left: 80%;
+
+ }
+}
+@media (max-width:1000px){
+  img.img-responsive.ln {
+    display: none;
+
+ }
+  img.img-responsive.x {
+    position: absolute;
+    left: 41%;
+
+ }
+}
+@media (max-width:840px){ 
+  p{
+  /* position: absolute; */
+  /* top:120% */
+}
+.Notice{
+  /* display: none; */
+}
+}
 
 /* Other styles */
 
@@ -212,13 +238,50 @@ html, body {
   body.menu-open .Apps {
     left: -27%;
     width: 154%;
-    top: 128%;
+    top: 170%;
     right: 0%;
+    margin-bottom: 10px;
+    position: absolute;
   }
+  body.menu-open .footer{
+    position: absolute;
+    top: 400%;
+  }
+  .carousel{
+    position: relative;
+  }
+  body.menu-open .Notice {
+    left: 20%;
+    top: 175%;
+  }
+  body.menu-open p{
+      /* margin-top: 1585px; */
+      margin-bottom: 1rem;
+  }
+  
 
   body.menu-open .Notice {
     display: none;
   }
+}
+
+body.menu-open{
+@media (max-width: 840px) {
+    .carousel {
+        margin-top: -500px;
+        left: 18%;
+            width: 64%;
+    }
+    div.containerhome.container.my-5 {
+      width: 93%;
+      top: 177%;
+      right: 16%;
+      margin-top: -20%;
+      left:8%;
+  }
+}
+
+
 }
 
 /* Adjusting main content to shift down when menu is open */

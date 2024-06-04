@@ -11,6 +11,8 @@ body {
   position: absolute;
   width: 100%;
   left: 0%;
+  top:250%;
+  /* z-index: 5; */
 
   
 }
@@ -73,4 +75,10 @@ body {
   width: 100%;
 
 }
+@media (max-width:840px){
+  .footer{
+    top:262%
+  }
 
+  
+}

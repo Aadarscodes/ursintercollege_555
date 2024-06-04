@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className={`content ${mobileMenu ? 'content-shift' : ''}`}>
         {/* Your main content goes here */}
         {/* <Carousel></Carousel> */}
-        <div className='contentshift'></div>
+        {/* <div className='contentshift'></div> */}
       </div>
     </>
   );

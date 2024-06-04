@@ -1,10 +1,14 @@
 .Notice{
 
-   width: 70%;
-   margin-top: 3in;
+    position: absolute;
+    right: 0%;
+    margin-right: 182px;
+    width: 87%;
+    margin-top: 207px;
     margin: right;
     height: 100vh;
     display: flex;
+
     
 
 
@@ -15,3 +19,39 @@
     margin: center;
 
 } */
+
+
+
+@media (max-width:1500px){
+    .Notice{
+        right: -3%;
+    }
+   }
+   @media (max-width:1147px){
+    .Notice{
+        right: -7%;
+    }
+   }
+   @media (max-width:951px){
+    .Notice{
+        right: -11%;
+        font-size: 13px;
+
+
+    }
+   }
+
+   @media (max-width: 931px) {
+    font-size: 13px;
+   }
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
