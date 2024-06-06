@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import '../src/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/header';
 import Navbar from './Components/Navbar';
