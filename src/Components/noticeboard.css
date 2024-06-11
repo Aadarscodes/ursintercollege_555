@@ -4,7 +4,7 @@
     right: 0%;
     margin-right: 182px;
     width: 87%;
-    margin-top: 207px;
+    margin-top: 275px;
     margin: right;
     height: 100vh;
     display: flex;
@@ -41,9 +41,9 @@
     }
    }
 
-   @media (max-width: 931px) {
+   /* @media (max-width: 931px) {
     font-size: 13px;
-   }
+   } */
 
       
       

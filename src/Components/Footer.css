@@ -79,6 +79,57 @@ body {
   .footer{
     top:262%
   }
-
+  @media (max-width: 837px) {
+    .footer {
+        top: 270%;
+    }
+}
   
+}
+
+@media (max-width: 978px) {
+  .footer {
+      top:274%;
+  }
+}
+
+@media (max-width: 986px) {
+  .footer {
+      top: 250%;
+  }
+}
+@media (max-width: 777px) {
+  .footer {
+      top: 305%;
+  }
+}
+@media (max-width: 1338px) {
+  .footer {
+      top: 260%;
+  }
+}
+@media (max-width: 1200px) {
+  .footer {
+      top: 275%;
+  }
+}
+@media (max-width: 990px) {
+  .footer {
+      top: 310%;
+  }
+}
+@media (max-width: 770px) {
+  .footer {
+      top: 360%;
+  }
+}
+@media (max-width: 555px) {
+  .footer {
+      top: 375%;
+  }
+}
+@media (max-width: 525px) {
+  .footer {
+      top: 410%;
+  }
 }

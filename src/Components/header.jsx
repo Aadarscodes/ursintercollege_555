@@ -17,7 +17,7 @@ function Header() {
         </h1>
         <h2 className="logoname logohindiname">
           उमा राम शंकर सिंह इंटर कॉलेज
-        </h2> <br />
+        </h2> 
         <h5 className="logoname logohindaddress">
           <strong>मोगलहा, कुनवार, कैम्पियरगंज-गोरखपुर मो. 9140335773</strong>
         </h5>

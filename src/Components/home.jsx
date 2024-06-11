@@ -72,6 +72,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const HomeCantaint = () => {
     return (
+        <div className='central'>
         <div className="containerhome container my-5">
             <div className="welcome-section">
                 <p>
@@ -120,7 +121,7 @@ const HomeCantaint = () => {
                     <button className="bottonbnt btn btn-primary">Read More</button>
                 </div>
             </div>
-        </div>
+        </div></div>
     );
 };
 
