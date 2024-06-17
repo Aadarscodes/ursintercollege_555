@@ -1,0 +1,73 @@
+/* MessagesComponent.css */
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f0f4f8; */
+    padding: 20px;
+    margin-top: 14%;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .message-section {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-title {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .pencil-icon {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .president-title {
+    background-color: green;
+  }
+  
+  .headmistress-title {
+    background-color: blue;
+  }
+  
+  .message-content {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .school-logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .message-text {
+    flex: 1;
+  }
+  
+  .message-text p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #444444;
+  }
+  

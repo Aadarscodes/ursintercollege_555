@@ -1,0 +1,57 @@
+.Notice{
+
+    position: absolute;
+    right: 0%;
+    margin-right: 182px;
+    width: 87%;
+    margin-top: 275px;
+    margin: right;
+    height: 100vh;
+    display: flex;
+
+    
+
+
+}
+/* .table-responsive{
+    width: 100%;
+    height:auto;
+    margin: center;
+
+} */
+
+
+
+@media (max-width:1500px){
+    .Notice{
+        right: -3%;
+    }
+   }
+   @media (max-width:1147px){
+    .Notice{
+        right: -7%;
+    }
+   }
+   @media (max-width:951px){
+    .Notice{
+        right: -11%;
+        font-size: 13px;
+
+
+    }
+   }
+
+   /* @media (max-width: 931px) {
+    font-size: 13px;
+   } */
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      

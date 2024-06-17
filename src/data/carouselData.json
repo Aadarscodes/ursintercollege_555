@@ -1,0 +1,17 @@
+
+{
+  "slides": [
+    {
+      "src": "https://previews.123rf.com/images/dualororua/dualororua1707/dualororua170700237/82718617-happy-school-children-in-front-of-school-building.jpg",
+      "alt": "Image 1 for carousel"
+    },
+    {
+      "src": "https://www.eurokidsindia.com/blog/wp-content/webp-express/webp-images/uploads/2023/10/role-of-school.jpg.webp",
+      "alt": "Image 2 for carousel"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1524069290683-0457abfe42c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "Image 3 for carousel"
+    }
+  ]
+}

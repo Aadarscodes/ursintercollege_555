@@ -1,0 +1,302 @@
+
+
+nav{
+  width: 100%;
+  background: #333;
+  color:#ea1515;
+  padding: 31px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+
+}
+
+.logo{
+  width : 180px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 6px 22px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.dark-nav{
+  background: #7ca021;
+  transition: 0.5s;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid yellow;
+}
+
+.menu-icon{
+  display:none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: auto;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.containerx{
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  position: absolute;
+  top: 26%;
+}
+
+.btn{
+  border-radius: 25px;
+  color:#f7eeee ;
+  background: #030000;
+  padding: 29px 11px;
+  font-size: 19px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: -23px;
+  height: 50px;
+  margin-left:8px ;
+  margin-top:-6px ;
+  /* position: absolute;
+  bottom: 40%;
+  left: 82%; */
+
+}
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+  position: absolute;
+  top: 80%;
+}
+
+ul.hide-mobile-menu{
+  margin-left: 20px;
+  height: 17px;
+}
+
+.hide-mobile-menu a{
+  border-radius:15px;
+  /* padding: 3px; */
+  margin: left;
+  display: flex;
+}
+
+.chutiya{
+  margin-top: 0%;
+
+}
+
+.menu-icon{
+  display:none;
+}
+
+button.btn.chutiya{
+  font-size: 14px;
+  border-radius: 20px;
+  margin-top: -15px;
+}
+
+ul.mobile-menu{
+  display: block;
+}
+.contentshift{
+  width: 100%;
+  overflow: hidden;
+}
+
+
+/* ------------------@media query--------------------- */
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      left: 5%;
+      max-width: 1798px;
+  }
+}
+
+@media(max-width:1880px){
+ .containerx{
+  top:26%
+ }
+ .Apps {
+  width: 83%;
+  left : 33%;
+ }
+ div.containerhome.container.my-5 {
+  width: 93%;
+  top: 163%;
+  right: 17%;
+ }
+ .Cantainerhome{
+  width: 50%;
+ }
+ .footer{
+  top:318%;
+ }
+ nav ul li{
+  margin: -6px 47px;
+ }
+}
+@media(max-width:1714px){
+  nav ul li{
+    margin: -6px 20px;
+   }
+}
+
+@media(max-width:1000px){
+  .logo{
+    width: 140px;
+  }
+  nav ul li{
+    margin: 10px 15px;
+  }
+}
+
+@media(max-width:840px){
+  nav{
+    padding: 15px 0;
+  }
+  nav ul{
+    position: fixed;
+    top: 0;
+    border: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212EA0;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 25px 40px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  .menu-icon{
+    display: block;
+    width: 45px;
+  }
+  .hide-mobile-menu{
+    right: -200px;
+  }
+}
+
+@media(max-width:1000px){
+  .logo{
+    width: 140px;
+  }
+  nav ul li{
+    margin: -6px 15px;
+  }
+}
+
+@media(max-width:840px){
+  nav{
+    padding: 15px 0;
+  }
+  nav ul{
+    position: fixed;
+    top: 0;
+    border: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212EA0;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 25px 40px;
+  }
+  .menu-icon{
+    display: block;
+    width: 45px;
+  }
+  .hide-mobile-menu{
+    right: -200px;
+  }
+}
+
+@media(max-width:1220px){
+  a{
+    font-size: 13px;
+  }
+  ul.hide-mobile-menu {
+    margin-left: -57px;
+    height: 17px;
+}
+}
+
+@media(max-width:840px){
+  img.menu-icon{
+
+  }
+}
+
+@media (max-width: 840px) {
+  nav ul {
+      height: 606px;
+      position:absolute;
+      top: 64px;
+      border: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #212EA0;
+      z-index: -1;
+      width: 100%;
+      padding-top: 71px;
+      transition: 0.5s;
+  }
+  .hide-mobile-menu {
+    right: -860px;
+}
+  /* .Apps{
+    left: -27%;
+    width: 154%;
+    top: 128%;
+    right: 0%;
+  } */
+
+}
+@media (max-width: 780px) {
+  .containerx {
+    top:28%
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,364 @@
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+   width: 100%;
+}
+
+
+#root {
+  max-width: 1240px;
+  margin: auto;
+  padding: 2rem;
+  /* text-align: center; */
+  display: flex;
+  /* overflow-x: hidden; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.urslogo {
+  position: absolute;
+  top: 4%;
+  left: 2%;
+  width: 150px;
+  cursor: pointer;
+}
+
+/* .logoenglishname {
+  margin: 0;
+  position: absolute;
+  left: 14%;
+}
+.logohindiname{
+  margin: 0;
+  position: absolute;
+  left: 14%;
+  top: 21%;
+}
+.logohindaddress{
+  margin: 0;
+  position: absolute;
+  left: 14%;
+  top: 27%;
+}
+.logotagname{
+  margin: 0;
+  position: absolute;
+  left: 14%;
+  top: 27%;
+} 
+
+
+
+/* .urslogo {
+  height: 110px; /* Adjust the height as needed */
+  /* margin-right: 30px;
+} */ 
+
+.logonamesection {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 4%;
+  left: 14%;
+}
+
+.logoname {
+  margin: 0; /* Remove default margins */
+}
+
+.logoenglishname {
+  margin-bottom: 5px; /* Adjust spacing as needed */
+  font-size: 35px;
+  color: #f04f1e;
+  font-style: bold;
+  text-align: left;
+}
+
+.logohindiname, .logohindaddress {
+  color: #f5933d;
+  margin: 1px; /* Ensure no extra margins */
+
+}
+
+.logosubtitle {
+  color: #b75906;
+  font-size: 15px;
+}
+
+.logotagname {
+  color: #000;
+  margin-top: 5px; /* Adjust spacing as needed */
+  text-align: left;
+}
+
+.logohindiname, .logohindiaddress{
+  text-align: left;
+  font-size:10px;
+}
+
+.logohindiname, .logohindaddress {
+  color: #b75906;
+  margin: 0;
+  text-align: left;
+  font-size: 19px;
+}
+
+.social-media-links{
+  display: flex;
+  position: absolute;
+  top: 5%;
+  left: 71%;
+}
+.social-media-links img{
+  width:50px;
+  display: flex;
+  margin: 15px;
+}
+
+.Apps {
+  width: 90%;
+    /* left: -34%; */
+    position: absolute;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 7%;
+  
+}
+
+/* Media Query for screens with width less than or equal to 1292px */
+@media (max-width: 1250px) {
+  .logonamesection {
+    left: 22%;
+  }
+}
+@media (max-width: 714px) {
+  .logonamesection {
+    left: 23%;
+    font-size: 13px;
+    top:8%;
+  }
+}
+@media (max-width: 582px) {
+  .logonamesection {
+    left: 28%;
+    font-size: 13px;
+    top:8%;
+  }
+}
+@media (max-width: 1224px) {
+  .social-media-links .fb{
+     display:none;
+ 
+  }
+  .social-media-links .ig{
+     display:none;
+ 
+  }
+  /* .social-media-links .ln{
+    position: absolute;
+    align-items: right;
+ 
+  }
+  .social-media-links {
+    position: absolute;
+     align-items: right;
+ 
+  } */
+  .social-media-links img {
+    margin-left:25px ;
+  }
+}
+@media (max-width:1px){
+  .social-media-links {
+    display:none;
+
+ }
+}
+@media (max-width:1222px){
+  .social-media-links {
+    left: 80%;
+
+ }
+}
+@media (max-width:1000px){
+  img.img-responsive.ln {
+    display: none;
+
+ }
+  img.img-responsive.x {
+    position: absolute;
+    left: 41%;
+
+ }
+}
+@media (max-width:840px){ 
+  
+  /* position: absolute; */
+  /* top:120% */
+}
+/* .Notice { */
+  /* display: none; */
+
+
+
+/* Other styles */
+
+/* Styles applied when the mobile menu is open */
+@media (max-width: 840px) {
+  body.menu-open .Apps {
+    left: -27%;
+    width: 154%;
+    top: 170%;
+    right: 0%;
+    margin-bottom: 10px;
+    position: absolute;
+  }
+  body.menu-open .footer{
+    position: absolute;
+    top: 450%;
+  }
+  @media (max-width: 566px) {
+    body.menu-open .footer {
+        top: 500%;
+    }
+}
+  .carousel{
+    position: relative;
+  }
+  body.menu-open .Notice {
+    left: 20%;
+    top: 175%;
+  }
+  body.menu-open p{
+      /* margin-top: 1585px; */
+      margin-bottom: 1rem;
+  }
+  
+
+  body.menu-open .Notice {
+    display: none;
+  }
+}
+
+body.menu-open{
+@media (max-width: 840px) {
+    .carousel {
+        margin-top: -350px;
+        left: 18%;
+            width: 64%;
+    }
+    div.containerhome.container.my-5 {
+      width: 93%;
+      top: 200%;
+      right: 16%;
+      margin-top: -20%;
+      left:8%;
+  }
+}
+
+
+}
+
+/* Adjusting main content to shift down when menu is open */
+.content-shift {
+  margin-top: 250px; /* Adjust this value based on the height of your mobile menu */
+}
+
+@media (max-width: 780px) {
+  img.img-responsive.x {
+   display: none;
+  }
+}
+
+/* Other styles */
+@media(max-width:777px){
+  .urslogo{
+    width: 120px;
+    top : 4%
+  }
+}
+@media(max-width:714px){
+  .urslogo{
+    width: 120px;
+    top : 8%
+  }
+}
+@media(max-width:640px){
+  .urslogo{
+    font-size: 22px;
+    width: 111px;
+  }
+}
+@media(max-width:791px){
+  .logoenglishname{
+    font-size: 24px;
+  }
+  .logohindiname{
+    font-size: 20px;
+  }
+  .logohindiname, .logohindaddress{
+    font-size: 18px;
+  }
+}
+@media(max-width:579px){
+  .logoenglishname{
+    font-size: 20px;
+  }
+  .logohindiname{
+    font-size: 18px;
+  }
+  .logohindiname, .logohindaddress{
+    font-size: 16px;
+  }
+}
+@media(max-width:490px){
+  .logoenglishname{
+    font-size: 16px;
+  }
+  .logohindiname{
+    font-size: 14px;
+  }
+  .logohindiname, .logohindaddress{
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,35 @@
+/* AboutUs.css */
+
+.about-us-container {
+    text-align: center;
+    padding: 20px;
+    margin-top:27% ;
+}
+
+.about-us-image {
+    width: 1300px;
+    height: 450px;
+    margin-top: -15%;
+}
+
+.about-us-content {
+    background-color: #fd790d;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.about-us-content h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.about-us-content p {
+    margin: 0;
+}
+.pairagraph{
+    display: inline;
+    text-align: left;
+}

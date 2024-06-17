@@ -1,0 +1,36 @@
+/* src/Gallery.css */
+
+/* Container for the entire gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Increased gap between photos */
+    justify-content: center; /* Center the gallery items */
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  /* Individual gallery item */
+  .gallery-item {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  /* Image inside each gallery item */
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* Rounded corners for the image */
+  }
+  
+  /* Hover effects */
+  .gallery-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
