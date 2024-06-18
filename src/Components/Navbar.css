@@ -245,11 +245,11 @@ ul.mobile-menu{
 }
 }
 
-@media(max-width:840px){
-  img.menu-icon{
+@media(max-width:840px) {
+  img.menu-icon
 
-  }
 }
+
 
 @media (max-width: 840px) {
   nav ul {
