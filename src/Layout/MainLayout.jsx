@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Header from '../Components/header'
 import Navbar from '../Components/Navbar'
@@ -24,12 +23,18 @@ import Footer from '../Components/Footer'
 // import Footer from '../Footer';
 
 const MainLayout = ({ children }) => {
+    let footerClass = '';
+  if (location.pathname === '/') {
+    footerClass = ' footer-home';
+  } else if (location.pathname === '/contact') {
+    footerClass = ' footer-contact';
+  }
     return (
         <div>
             <Header />
             <Navbar />
             <div>{children}</div>
-            <Footer />
+            <Footer className={footerClass} />
         </div>
     );
 };
