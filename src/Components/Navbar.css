@@ -275,6 +275,9 @@ ul.mobile-menu{
     right: 0%;
   } */
 
+  .Notice{
+    display: none;
+  }
 }
 @media (max-width: 780px) {
   .containerx {
