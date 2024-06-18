@@ -55,6 +55,9 @@ const router = createBrowserRouter([
   {
     path: "enquiry-button",
     element: <Contact/>,
+    
+
+    
   },
 ]);
 
