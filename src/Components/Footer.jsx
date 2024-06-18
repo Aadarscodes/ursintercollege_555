@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import './Footer.css';
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";
@@ -6,9 +7,18 @@ import linkedin from "../assets/linkedin.png";
 import twitter from "../assets/twitter.png";
 
 const Footer = () => {
+  const location = useLocation();
+
+  let footerClass = 'footer-common';
+  if (location.pathname === '/') {
+    footerClass += ' footer-home';
+  } else if (location.pathname === '/contact') {
+    footerClass += ' footer-contact';
+  }
+
   return (
     
-      <footer className="footer">
+      <footer className={footerClass}>
         <div className="footer-container">
           <div className="footer-section contact-info">
             <h3>Contact Us</h3>

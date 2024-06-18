@@ -1,3 +1,4 @@
+
 // import React from 'react';
 // import './Teachers.css';
 // import teacherImage from 'path_to_your_image/image.png'; // Ensure to replace this with the correct path
