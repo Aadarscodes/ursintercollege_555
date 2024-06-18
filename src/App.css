@@ -1,4 +1,15 @@
+.footer-home {
+  background-color: #333;
+  color: #fff;
+  padding: 0% ;
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top:250%;
+  /* z-index: 5; */
 
+  
+}
 html, body {
   overflow-x: hidden;
   margin: 0;
@@ -109,11 +120,13 @@ html, body {
   font-size: 35px;
   color: #f04f1e;
   font-style: bold;
+  text-align: left;
 }
 
 .logohindiname, .logohindaddress {
   color: #f5933d;
-  margin: 0; /* Ensure no extra margins */
+  margin: 1px; /* Ensure no extra margins */
+
 }
 
 .logosubtitle {
@@ -170,6 +183,13 @@ html, body {
   }
 }
 @media (max-width: 714px) {
+  .logonamesection {
+    left: 23%;
+    font-size: 13px;
+    top:8%;
+  }
+}
+@media (max-width: 582px) {
   .logonamesection {
     left: 28%;
     font-size: 13px;
@@ -246,8 +266,13 @@ html, body {
   }
   body.menu-open .footer{
     position: absolute;
-    top: 400%;
+    top: 450%;
   }
+  @media (max-width: 566px) {
+    body.menu-open .footer {
+        top: 500%;
+    }
+}
   .carousel{
     position: relative;
   }
@@ -269,13 +294,13 @@ html, body {
 body.menu-open{
 @media (max-width: 840px) {
     .carousel {
-        margin-top: -500px;
+        margin-top: -350px;
         left: 18%;
             width: 64%;
     }
     div.containerhome.container.my-5 {
       width: 93%;
-      top: 177%;
+      top: 200%;
       right: 16%;
       margin-top: -20%;
       left:8%;
@@ -290,4 +315,61 @@ body.menu-open{
   margin-top: 250px; /* Adjust this value based on the height of your mobile menu */
 }
 
+@media (max-width: 780px) {
+  img.img-responsive.x {
+   display: none;
+  }
+}
+
 /* Other styles */
+@media(max-width:777px){
+  .urslogo{
+    width: 120px;
+    top : 4%
+  }
+}
+@media(max-width:714px){
+  .urslogo{
+    width: 120px;
+    top : 8%
+  }
+}
+@media(max-width:640px){
+  .urslogo{
+    font-size: 22px;
+    width: 111px;
+  }
+}
+@media(max-width:791px){
+  .logoenglishname{
+    font-size: 24px;
+  }
+  .logohindiname{
+    font-size: 20px;
+  }
+  .logohindiname, .logohindaddress{
+    font-size: 18px;
+  }
+}
+@media(max-width:579px){
+  .logoenglishname{
+    font-size: 20px;
+  }
+  .logohindiname{
+    font-size: 18px;
+  }
+  .logohindiname, .logohindaddress{
+    font-size: 16px;
+  }
+}
+@media(max-width:490px){
+  .logoenglishname{
+    font-size: 16px;
+  }
+  .logohindiname{
+    font-size: 14px;
+  }
+  .logohindiname, .logohindaddress{
+    font-size: 14px;
+  }
+}

@@ -1,4 +1,3 @@
-
 // Adars
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
@@ -38,7 +37,7 @@ const Navbar = () => {
             <li><Link to="/album" className='chutiya'>Album</Link></li>
         {/* <li><a href="#campus">Campus</a></li> */}
         {/* <li><a href="#testimonials">Testimonials</a></li> */}
-        <li><a href="#contact"><button className='btn'>Contact us</button></a></li>
+        <li><Link to="/Contact" ><button className='btn'>Contact us</button></Link></li>
       </ul>
       <img src={menu_icon} className='menu-icon' onClick={toggleMenu} alt='Menu Icon' />
       </nav>

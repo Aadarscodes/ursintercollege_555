@@ -1,5 +1,6 @@
-
 import { useState } from 'react'
+import { useLocation } from 'react-router-dom';
+import '../src/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/header';
 import Navbar from './Components/Navbar';
@@ -13,6 +14,14 @@ import HomeCantaint from './Components/home.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
+  const location = useLocation();
+
+  let footerClass = '';
+  if (location.pathname === '/') {
+    footerClass = ' footer-home';
+  } else if (location.pathname === '/contact') {
+    footerClass = ' footer-contact';
+  }
 
   return (
     
@@ -28,7 +37,7 @@ function App() {
     
     <br />
   
-       <div><Footer></Footer></div>
+       <div><Footer className={footerClass}></Footer></div>
       
     </div>
   )
