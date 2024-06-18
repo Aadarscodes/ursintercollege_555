@@ -1,3 +1,4 @@
+
 // ManagerComponent.jsx
 import React from 'react';
 import './ManagerComponent.css';
