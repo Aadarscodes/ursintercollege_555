@@ -32,6 +32,8 @@ const ManagerComponent = () => {
               citizens, instilling in our students a deep sense of empathy, cultural awareness, and responsibility towards 
               the global community.
             </p>
+
+            
             <p className="manager-description">
               We nurture future leaders who are not only academically proficient but also compassionate and socially conscious, 
               equipped to address complex challenges with resilience and integrity. Sustainability is at the core of our vision, 
